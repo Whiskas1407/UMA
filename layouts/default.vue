@@ -83,4 +83,14 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+@media screen and (max-width: 500px) {
+  .app {
+    flex-direction: column;
+    padding: 5vw;
+  }
+  main {
+    padding: 0;
+    width: 91vw;
+  }
+}
 </style>

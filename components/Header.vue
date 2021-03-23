@@ -78,4 +78,28 @@ a {
     font-size: 1.1vw;
   }
 }
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vw;
+  }
+  .user {
+    &__info {
+      height: 36.3vw;
+    }
+    &__avatar {
+      width: 28vw;
+    }
+    &__name {
+      font-size: 4.1vw;
+    }
+    &__navigation a {
+      font-size: 2.75vw;
+    }
+    &__navigation-title {
+      font-size: 3.85vw;
+    }
+  }
+}
 </style>

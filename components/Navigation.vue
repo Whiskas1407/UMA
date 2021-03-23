@@ -64,4 +64,9 @@ export default {
     }
   }
 }
+@media screen and (max-width: 500px) {
+  .navigation {
+    display: none;
+  }
+}
 </style>

@@ -116,4 +116,45 @@ export default {
     }
   }
 }
+@media screen and (max-width: 500px) {
+  .items {
+    flex-direction: column;
+    &__products {
+      &-block {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+    &__info {
+      &-title {
+        display: none;
+      }
+      &-block {
+        width: 90.5vw;
+        img {
+          width: 90vw;
+        }
+      }
+    }
+    &__item {
+      width: 28.3vw;
+      &-title {
+        font-size: 2.7vw;
+      }
+      img {
+        width: 26.6vw;
+      }
+      &-price {
+        font-size: 2.8vw;
+      }
+      &-buy {
+        width: 28.1vw;
+        height: 7vw;
+        font-size: 2.5vw;
+      }
+      &-block {
+        height: 40.7vw;
+      }
+    }
+  }
+}
 </style>
